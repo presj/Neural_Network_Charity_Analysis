@@ -20,7 +20,7 @@ The variables considered to be neither a target nor a feature were the “EIN”
 
 ![image](https://user-images.githubusercontent.com/100803302/178154442-46d57b65-3fc9-48c1-a919-3494f6fed14f.png)
 
-Compiling, Training, and Evaluating the Model
+#### Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 For deliverable 2, the model was defined with 40 neurons in a first layer, 20 neurons in a second layer, and the activation function “ReLu.” For this initial model the number of neurons and layers was selected to establish a baseline model that might reach our desired level of performance.  ReLu was used to enable a non-linear relationship.
