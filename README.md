@@ -1,12 +1,12 @@
-Neural_Network_Charity_Analysis
+# Neural_Network_Charity_Analysis
 
-Overview of the analysis: 
+## Overview of the analysis: 
 
 Neural networks are an advanced form of machine learning that recognizes patterns and features in input data and provides a clear quantitative output.  Given a dataset of charitable organizations, the purpose of this analysis is to create a binary classifier that can predict whether applicants will be successful when provided with funding. The project delivers a neural network model that has been preprocessed, compiled, trained, evaluated, and optimized.
 
-Results:
+## Results:
 
-Data Preprocessing
+#### Data Preprocessing
 
 What variable(s) are considered the target(s) for your model?
 The target, or predicted outcome, for this model is the “Is Successful” column.
@@ -50,14 +50,18 @@ Attempt 3:  The last change was keeping the changes made in attempt 2 in place a
 ![image](https://user-images.githubusercontent.com/100803302/178154687-43a885e0-5133-478a-9325-b6f6f9e3c0e7.png)
 ![image](https://user-images.githubusercontent.com/100803302/178154704-c25086f2-8245-4517-99f8-f15935396f9b.png)
 
-Summary:
+## Summary:
 
 Looking at the performance metrics from the model, the neural network was able to correctly classify each of the points in the test data 73% of the time.  This accuracy score remained consistent across each of the additional attempts to reach the minimum accuracy goal of 75%. 
 
 Because of the important to assess model performance goals prior to creating a machine learning model, this project could have been deemed successful if the accuracy goal was revised down to 72%.  Additionally, depending on the type of data and the use case, one the following could be tried to improve the accuracy score:
+
 •	Recreate and retrain a model using different parameters
+
 •	Use different training/test data
+
 •	Use a different model altogether
+
 Use of a different model, such as the ensemble-based random forest classifier, may be worth trying as an alternative due to its structural similarity to the neural network.
 
 
