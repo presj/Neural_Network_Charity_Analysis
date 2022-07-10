@@ -45,14 +45,14 @@ Attempt 2:  The third layer remained with 25 neurons, the neurons in the first l
 ![image](https://user-images.githubusercontent.com/100803302/178154636-d9238dab-90fc-4505-b9d5-17dbfdffa619.png)
 ![image](https://user-images.githubusercontent.com/100803302/178154650-052e10a7-52fc-4f2a-bfc6-30a0ddcabd02.png)
 
-Attempt 3:  The last change was keeping the changes made in attempt 2 in place and only change the activation function to “TANH.”  This resulted in an accuracy of .726
+Attempt 3:  Changes made in attempt 2 remained in place and the activation function was changed to “TANH.”  This resulted in an accuracy of .726
 
 ![image](https://user-images.githubusercontent.com/100803302/178154687-43a885e0-5133-478a-9325-b6f6f9e3c0e7.png)
 ![image](https://user-images.githubusercontent.com/100803302/178154704-c25086f2-8245-4517-99f8-f15935396f9b.png)
 
 ## Summary:
 
-Looking at the performance metrics from the model, the neural network was able to correctly classify each of the points in the test data 73% of the time.  This accuracy score remained consistent across each of the additional attempts to reach the minimum accuracy goal of 75%. 
+Looking at the performance metrics from the model, the neural network was able to correctly classify each of the points in the test data 73% of the time.  This accuracy score remained consistent across each of the additional attempts to try and reach the minimum accuracy goal of 75%. 
 
 Because of the important to assess model performance goals prior to creating a machine learning model, this project could have been deemed successful if the accuracy goal was revised down to 72%.  Additionally, depending on the type of data and the use case, one the following could be tried to improve the accuracy score:
 
